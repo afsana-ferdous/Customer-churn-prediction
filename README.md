@@ -1,35 +1,35 @@
 # Customer Churn Prediction (Random Forest)
 
-Predictive analytics project using a Random Forest model to identify customer churn risk and support retention-focused decision-making.
+Predictive analytics project using machine learning to identify customer churn risk and support retention-focused decision-making.
 
 ---
 
 ## Overview
-This project applies machine learning techniques to predict customer churn using large-scale historical customer data. The analysis is designed to support retention-focused decision-making by identifying customers at higher risk of churn and enabling prioritisation of targeted engagement strategies.
+This project applies machine learning techniques to predict customer churn using large-scale historical customer data. The analysis focuses on identifying customers at higher risk of churn so organisations can prioritise targeted retention and engagement strategies.
 
-The project demonstrates an end-to-end analytical workflow, from data preparation to model evaluation, using a Random Forest classifier.
+The work demonstrates an end-to-end analytical workflow, from data preparation and feature engineering to model training and evaluation, using a Random Forest classifier.
 
 ---
 
 ## Business Objective
-Customer churn directly impacts revenue, customer lifetime value, and growth.  
+Customer churn has a direct impact on revenue, customer lifetime value, and growth.  
 The objectives of this project are to:
 
-- Predict the probability of customer churn  
+- Predict the likelihood of customer churn  
 - Rank customers by churn risk  
 - Support data-driven retention and engagement decisions  
 
 ---
 
 ## Dataset
-- Over **200,000 customer records**
+- **200,000+ customer records**
 - Behavioural and transactional features
 - Data is **academic and fully anonymised**
 - No personally identifiable information (PII) is included
 
 ---
 
-## Methodology
+## Analytical Approach
 
 ### Data Preparation
 - Data cleaning and validation  
@@ -37,16 +37,16 @@ The objectives of this project are to:
 - Feature selection and transformation  
 
 ### Feature Engineering
-- Creation of behavioural indicators relevant to churn  
+- Creation of behavioural indicators relevant to churn
 - Preparation of model-ready input variables  
 
 ### Modelling
 - Trained a **Random Forest classifier**
-- Model selected for robustness and performance on large datasets  
+- Model selected for robustness and strong performance on large datasets  
 
 ### Model Evaluation
 - Performance evaluated using **AUC (Area Under the ROC Curve)**
-- Assessed the model’s ability to correctly rank churn risk  
+- Focus on the model’s ability to correctly rank customers by churn risk  
 
 ---
 
@@ -59,6 +59,7 @@ The objectives of this project are to:
 
 ## Business Relevance
 This type of churn modelling is commonly used in:
+
 - Banking and financial services  
 - Telecommunications  
 - Subscription-based and digital platforms  
@@ -73,13 +74,16 @@ Outputs from this analysis can support:
 ## Tools & Technologies
 - **R**
 - Random Forest
-- Data preprocessing and model evaluation libraries  
+- Data preprocessing and model evaluation libraries
 
 ---
 
 ## Repository Structure
-├── churn_model.R # Main analysis and modelling script
-├── README.md # Project documentation
+```
+├── churn_model.R        # Main analysis and modelling script
+├── README.md            # Project documentation
+```
+
 ---
 
 ## Notes
@@ -93,4 +97,3 @@ The structure and approach reflect real-world churn analysis used in commercial 
 - **GitHub:** https://github.com/afsana-ferdous  
 
 ⭐ If you find this project useful, feel free to explore the code or connect.
-
